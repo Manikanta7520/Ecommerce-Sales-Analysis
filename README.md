@@ -1,5 +1,5 @@
 # Ecommerce-Sales-Analysis
-Data visualization and sales analysis using Python and matplotlib
+*Data visualization and sales analysis using Python and matplotlib
 Weeek-4 Developers Arena - Data Science Internship  
 Author : Sai Manikanta
 
