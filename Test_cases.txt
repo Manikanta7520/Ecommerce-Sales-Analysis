@@ -1,0 +1,99 @@
+TESTCASES :
+
+Test Case 1: Dataset Loading
+
+Input: sales_data.csv present in the data/ folder
+Expected Output: Dataset loads successfully into a pandas DataFrame
+Result: Passed
+
+Test Case 2: Display Dataset Preview
+
+Input: Loaded DataFrame
+Expected Output: First 5 rows displayed using head()
+Result: Passed
+
+Test Case 3: Dataset Information Check
+
+Input: Loaded DataFrame
+Expected Output:
+
+Correct number of rows and columns
+
+Correct data types displayed using info()
+Result: Passed
+
+Test Case 4: Missing Values Handling
+
+Input: Dataset containing missing values
+Expected Output:
+
+Missing values replaced with zero using fillna()
+
+No null values remain after cleaning
+Result: Passed
+
+Test Case 5: Duplicate Records Removal
+
+Input: Dataset containing duplicate rows
+Expected Output: Duplicate rows removed using drop_duplicates()
+Result: Passed
+
+Test Case 6: Total Sales Calculation
+
+Input: Column Total_Sales
+Expected Output:
+
+Correct total sales value calculated using sum()
+Result: Passed
+
+Test Case 7: Product-wise Sales Aggregation
+
+Input: Group by Product
+Expected Output:
+
+Total sales calculated correctly for each product
+Result: Passed
+
+Test Case 8: Region-wise Sales Aggregation
+
+Input: Group by Region
+Expected Output:
+
+Correct sales distribution calculated for each region
+Result: Passed
+
+Test Case 9: Bar Chart Generation
+
+Input: Product-wise sales data
+Expected Output:
+
+Bar chart displayed inline in Jupyter Notebook
+
+Chart saved as visualizations/sales_by_product.png
+Result: Passed
+
+Test Case 10: Pie Chart Generation
+
+Input: Region-wise sales data
+Expected Output:
+
+Pie chart displayed inline in Jupyter Notebook
+
+Chart saved as visualizations/sales_by_region.png
+Result: Passed
+
+Test Case 11: Folder Creation Validation
+
+Input: Missing visualizations/ folder
+Expected Output: Folder created automatically using os.makedirs()
+Result: Passed
+
+Test Case 12: Notebook Execution
+
+Input: Full notebook run from top to bottom
+Expected Output:
+
+No runtime errors
+
+All cells execute successfully
+Result: Passed
